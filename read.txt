@@ -1,5 +1,33 @@
 ---
 node app.js
 
----
+--- day len github
 git init
+git add .
+git commit -m 'init project'
+git remote add origin https://github.com/phongluong8901/nodejs.git
+git push origin master
+
+--- kill port
+npm kill-port 3000
+
+--- package
+npm - v
+
+npm init
+
+
+package name: (learn5) fullstack-backend
+version: (1.0.0)                                                                                                    
+description: learn full stack BE                                                                                    
+entry point: (app.js) server.js
+test command:                                                                                                       
+git repository: (https://github.com/phongluong8901/nodejs.git)                                                      
+keywords:                                                                                                           
+author: phong                                                                                                       
+license: (ISC)                                                                                                      
+type: (commonjs)                                                                                                    
+
+
+---
+npm i --save express
